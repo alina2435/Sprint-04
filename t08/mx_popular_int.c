@@ -1,5 +1,5 @@
 int mx_popular_int(const int *arr, int size) {
-    if (!arr || size <= 0) return 0; // Проверка на пустой массив
+    if (!arr || size <= 0) return 0; 
 
     int max_count = 0;
     int popular = arr[0];
